@@ -1,0 +1,26 @@
+body{
+    background: #303030;
+}
+.inline-block{
+    display: inline-block;
+}
+.none:hover{
+    border-radius: 50px;
+    box-shadow: 0px 0px 20px 1px #fff;
+}
+.svgs{
+    margin-left: -1000px;
+    position: absolute;
+}
+
+.plus{
+    position: absolute;
+    margin-top: 260px;
+    transition: all 0.7s;
+}
+.plus:hover~.svgs {
+    margin-left: 101px;
+}
+.svgs:hover{
+    margin-left: 101px;
+}
